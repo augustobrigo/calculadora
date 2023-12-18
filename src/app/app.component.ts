@@ -53,6 +53,7 @@ export class AppComponent {
           console.log(this.visor);
           if (this.operador==-3){
             this.visor=String(Number(this.visor)+this.guardar);
+            this.guardar=0;
           }
           break;
         }
